@@ -1,3 +1,11 @@
+import { Container } from "./components/Container"
+import "./styles/global.css"
+import "./styles/theme.css"
+
 export function App() {
-  return <h1>Olá Mundo!</h1>
+  return (
+    <>
+      <Container>Olá mundo</Container>
+    </>
+  )
 }
